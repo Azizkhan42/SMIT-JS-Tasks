@@ -39,6 +39,24 @@ function sumArray(numbers) {
 console.log(sumArray([1, 2, 3, 4]));  // Output: 10
 
 
+// Task-4
+let users = [];
+
+function addUser(username) {
+    users.push(username);   // add username to array
+    return users;           // return updated list
+    
+}
+
+// Adding users
+addUser("Aziz");
+addUser("Ali");
+addUser("Hamza");
+
+// Printing list of users
+console.log("User List:", users);
+
+
 
 
 

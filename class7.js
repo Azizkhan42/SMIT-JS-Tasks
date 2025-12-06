@@ -1,16 +1,9 @@
-// Task-4
-let users = [];
-
-function addUser(username) {
-    users.push(username);   // add username to array
-    return users;           // return updated list
-    
+function largestNum(a,b){
+    if(a>=b){
+        return "a is greater than b";
+    }
+    else{
+        return "b is greater than a"
+    }
 }
-
-// Adding users
-addUser("Aziz");
-addUser("Ali");
-addUser("Hamza");
-
-// Printing list of users
-console.log("User List:", users);
+largestNum(3,1)
