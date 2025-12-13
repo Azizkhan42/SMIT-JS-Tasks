@@ -1,4 +1,4 @@
-let add = (a,b)=>{
-    return a+b
-}
-console.log(add(2,2))
+let obj1 = { name: "John" };
+let obj2 = obj1;
+
+console.log(obj2)
