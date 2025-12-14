@@ -1,4 +1,5 @@
-let obj1 = { name: "John" };
-let obj2 = obj1;
+var number = [1,2,3,4,5];
 
-console.log(obj2)
+console.log(number.splice(2,2))
+console.log(number)
+
