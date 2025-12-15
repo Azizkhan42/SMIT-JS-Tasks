@@ -1,5 +1,3 @@
-var number = [1,2,3,4,5];
+var rnNum = Math.random() * 100-1-1
 
-console.log(number.splice(2,2))
-console.log(number)
-
+console.log(rnNum)
