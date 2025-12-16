@@ -1,22 +1,13 @@
-var arr = [12,3,45,5,53,2];
-
-var totals = 0;
+var arr = [12,3,44,5,6]
 
 
-for(var i = 0; i<arr.length; i++){
-    totals = totals+arr[i]
-}
-console.log(totals)
+console.log(arr)
 
-var average = totals/arr.length;
-console.log(average)
+
+console.log(arr.slice(1,4))
 
 
 
 
-// var total = arr.reduce((totals, value)=>{
-//     return totals+value
-// })
-// console.log(total)
 
 
