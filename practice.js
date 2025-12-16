@@ -1,3 +1,8 @@
-var rnNum = Math.random() * 100-1-1
 
-console.log(rnNum)
+console.log("Please, Wait...", "Loading")
+setTimeout(() => {
+    console.log("Hello, Aziz")
+    
+}, 3000);
+
+console.log("Done")
