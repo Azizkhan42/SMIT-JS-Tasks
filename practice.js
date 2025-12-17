@@ -1,13 +1,5 @@
-var arr = [12,3,44,5,6]
+function userLogin(name){
+    console.log("Welcome, ", name)
+}
 
-var filterData = arr.filter((data)=>{
-   return data%2==0;
-} )
-
-console.log(filterData)
-
-
-
-
-
-
+userLogin("Aziz")
