@@ -1,5 +1,7 @@
-function userLogin(name){
-    console.log("Welcome, ", name)
-}
 
-userLogin("Aziz")
+
+console.log(name())
+
+function name(){
+    return "Aziz"
+}
