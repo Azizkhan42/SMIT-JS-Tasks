@@ -33,12 +33,9 @@
 // }
 
 
-
-
-
 var words = prompt("Enter some text")
 var numChars = words.length;
-
+console.log(numChars)
 for(var i =0; i<numChars; i++){
     if(words.slice(i, i+2)==="  "){
         alert("No double spaces!")
