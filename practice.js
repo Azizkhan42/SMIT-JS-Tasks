@@ -1,7 +1,10 @@
-function name(){
-  var user = "Aziz";
-  console.log(user)
+function parent(){
+  let name = "Aziz";
+
+  function child(){
+    console.log(name)
+  }
+  child()
 }
 
-name()
-// console.log(user)
+parent()
