@@ -1,7 +1,12 @@
-const names = [2,4,6,3,8,54,34,15,3,1,7,0,5]
+let num = +prompt("Enter a number");
 
-let sum = 0;
-names.forEach((data)=>{
-  sum = sum + data;
-})
-console.log(sum)  
+function check(){
+  if(num%2===0){
+    console.log("Even number")
+  }
+  else{
+    console.log("Odd number")
+  }
+}
+
+check()
