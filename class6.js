@@ -1,4 +1,4 @@
-// variable scope
+// variable scope/ Scope in Js
 
 // global scope -->variable declared whether with var/let/const is accessible anywhere in the code.
 // local scope --> variables declared within block or functions.
@@ -6,9 +6,12 @@
 //                 i) block scope, 
 //                 ii) function scope
 
-// function scope --> Only accessible within the function whether declared with var/let/const.
+// Function scope --> Only accessible within the function whether declared with var/let/const.
 
-// block scope --> declared with var ignores block and accessible anywhere. while with let/const can't ignores block and limited the scope.
+// block scope --> Come in ES6 for let and const. Declared with var ignores block and accessible anywhere. while with let/const doesn't ignores block and limited the scope.
+// E-g: if-else, switch, loop etc.
+
+
 
 
 var fullName= "Aziz Ur Rehman";  // global scope
