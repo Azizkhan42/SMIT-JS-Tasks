@@ -6,4 +6,4 @@ function largestNum(a,b){
         return "b is greater than a"
     }
 }
-largestNum(3,1)
+console.log(largestNum(3,1))
