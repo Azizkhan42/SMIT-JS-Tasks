@@ -1,26 +1,16 @@
-function learn(cb){
-  setTimeout(() => {
-    console.log("Learn")
-    cb()
-  }, 1000);
-}
+let arr = [12,32,43,54,2,0,14,2]; 
 
-function done(){
-  setTimeout(() => {
-    console.log("Done")
-  }, 5000);
-}
-
-function Earn(cb){
-  setTimeout(() => {
-    console.log("Earn")
-    cb()
-  }, 2000);
-}
-
-learn(()=>{
-  Earn(()=>{
-    done()
-  })
+console.log("map method")
+arr.map((values)=>{
+  console.log(values*3)
 })
+
+console.log(arr)
+
+console.log("for Each method")
+arr.forEach((values)=>{
+  console.log(values*2)
+})
+
+console.log(arr)
 
