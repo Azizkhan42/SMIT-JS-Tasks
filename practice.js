@@ -1,7 +1,9 @@
-let arr = [1, 4, 9, 16];
+function greet(){
+  console.log("Hello, ")
+}
 
-let sum = arr.map((data) => {
-  return data / data;
-});
+function user(name){
+  console.log(name)
+}
 
-console.log(sum);
+greet(user("Aziz"))
