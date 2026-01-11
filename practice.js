@@ -1,16 +1,17 @@
-let arr = [12,32,43,54,2,0,14,2]; 
+var users = [
+  { name: "Alice", age: 22 },
+  { name: "Foo", age: 26 },
+  { name: "Bob", age: 30 },
+  { name: "Charlie", age: 25 },
+];
 
-console.log("map method")
-arr.map((values)=>{
-  console.log(values*3)
+let oldAge = users.filter((item)=>{
+  return item.age > 25;
 })
 
-console.log(arr)
+// console.log(oldAge)
 
-console.log("for Each method")
-arr.forEach((values)=>{
-  console.log(values*2)
+let names = users.map((item)=>{
+  return item.name;
 })
-
-console.log(arr)
-
+console.log(names)
