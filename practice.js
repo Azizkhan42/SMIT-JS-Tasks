@@ -1,9 +1,7 @@
-function greet(){
-  console.log("Hello, ")
-}
+let marks = [22,55,76,99,89,78,99,90];
 
-function user(name){
-  console.log(name)
-}
+let result = marks.filter((value)=>{
+  return value > 90;
+})
 
-greet(user("Aziz"))
+console.log(result)
