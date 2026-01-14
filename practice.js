@@ -1,11 +1,20 @@
-function getData(dataId) {
+function Api(data) {
   return new Promise((resolve, reject) => {
+    console.log("I am a promise");
     setTimeout(() => {
-      console.log("Data", dataId);
-      resolve("Success")
-    }, 4000);
+      console.log("Data1", data)
+      // resolve("Success");
+      reject("failed")
+
+    }, 3000);
   });
 }
-let promise = getData(123)
-console.log(promise)
 
+let final = Api(1)
+final.then((res)=>{
+  console.log("Api successful", res)
+})
+
+final.catch((err)=>{
+  console.log("Api rejected", err)
+})
