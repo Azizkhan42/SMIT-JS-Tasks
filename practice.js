@@ -1,6 +1,18 @@
-// let price = 499.99;
-// let tax = 5;
+let day = 3;
 
-// let total = price + (price * tax / 100);
-// console.log(Math.round(total));
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
 
+  case 2:
+    console.log("Tuesday");
+    break;
+
+  case 3:
+    console.log("Wednesday");
+    break;
+
+  default:
+    console.log("Invalid day");
+}
