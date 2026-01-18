@@ -1,18 +1,24 @@
-let day = 3;
+let seat = [
+    ["A", "B", "C", "D", "E", "F"],
+    ["A", "B", "C", "D", "E", "F"],
+    ["A", "B", "C", "D", "E", "F"],
+    ["A", "B", "C", "D", "E", "F"],
+    ["A", "B", "C", "D", "E", "F"],
+    ["A", "B", "C", "D", "E", "F"],
+    ["A", "B", "C", "D", "E", "F"],
+    ["A", "B", "C", "D", "E", "F"],
+    ["A", "B", "C", "D", "E", "F"],
+]
 
-switch (day) {
-  case 1:
-    console.log("Monday");
-    break;
+for(let i=0; i<seat.length; i++){
+    const element = seat[i];
 
-  case 2:
-    console.log("Tuesday");
-    break;
-
-  case 3:
-    console.log("Wednesday");
-    break;
-
-  default:
-    console.log("Invalid day");
+    for(let j=0; j<element.length; j++){
+        const seatNumber = i +1 + element[j];
+        if(seatNumber==="4C" || seatNumber ==="3D")
+        {
+            console.log("Muhammad Osama you got the seat")
+        }
+        console.log(seatNumber)
+    }
 }
