@@ -1,9 +1,6 @@
-const user = {
-    "first name": "Aziz",
-    age: 22,
-    address: "Momin town",
-    Education: "BSSE"
+"use non-strict"
+function profile(){
+    console.log(this)
 }
 
-console.log(user["first name"])
-
+profile()
