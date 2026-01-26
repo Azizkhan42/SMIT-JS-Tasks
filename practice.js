@@ -1,10 +1,9 @@
-function User(name, age) {
-  this.name = name;
-  this.age = age;
+const user = {
+    "first name": "Aziz",
+    age: 22,
+    address: "Momin town",
+    Education: "BSSE"
 }
 
-let user1 = new User("Aziz", 21);
-let user2 = new User("Ali", 22);
+console.log(user["first name"])
 
-console.log(user1.name); // Aziz
-console.log(user1.age); // 22
