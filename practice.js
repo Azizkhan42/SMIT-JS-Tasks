@@ -1,8 +1,10 @@
+function User(name, age) {
+  this.name = name;
+  this.age = age;
+}
 
-let isLogin = +prompt("Enter your age?")
-if(isLogin>=18){
-    console.log("You can vote...")
-}
-else{
-    alert("You are under age.")
-}
+let user1 = new User("Aziz", 21);
+let user2 = new User("Ali", 22);
+
+console.log(user1.name); // Aziz
+console.log(user1.age); // 22
