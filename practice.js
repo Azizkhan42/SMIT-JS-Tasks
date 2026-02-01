@@ -1,8 +1,8 @@
-function User(name, age){
-    this.name = name;
-    this.age = age;
-}
+const element = document.getElementById("btn")
 
-let p1 = new User("Aziz", 22);
+element.addEventListener("click", function(){
+    
+    element.innerText ? "ON" : "OFF"
+})
 
-console.log(p1)
+
