@@ -48,3 +48,14 @@ const p1 = new Person("Aziz", 22);
 const p2 = new Person("Osama", 24);
 
 console.log(p1)
+
+
+let arr = [true, 0, false, "", undefined, 1, " ", null, 22]
+
+let print = arr.filter((val)=>{
+    if(val>0 || " "){
+        return val;
+    } 
+})
+
+console.log(print)

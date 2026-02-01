@@ -1,9 +1,8 @@
-let arr = [true, 0, false, "", undefined, 1, " ", null, 22]
+function User(name, age){
+    this.name = name;
+    this.age = age;
+}
 
-let print = arr.filter((val)=>{
-    if(val>0 || " "){
-        return val;
-    } 
-})
+let p1 = new User("Aziz", 22);
 
-console.log(print)
+console.log(p1)
