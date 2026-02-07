@@ -1,9 +1,11 @@
-const element = document.getElementById("btn")
-const heading = document.querySelector("h1")
-console.log(heading)
+const input = document.querySelector("#name");
+const btn = document.querySelector("button");
 
-element.addEventListener("click", function(){
-    heading.innerText = "JavaScript course"
-})
+btn.addEventListener("click", () => {
+  let print = input.value;
 
+  let div = document.createElement("div")
 
+  div = input.value;
+  console.log(print);
+});
