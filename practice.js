@@ -1,11 +1,5 @@
 const input = document.querySelector("#name");
-const btn = document.querySelector("button");
+const btn = document.getElementsByTagName("button");
 
-btn.addEventListener("click", () => {
-  let print = input.value;
-
-  let div = document.createElement("div")
-
-  div = input.value;
-  console.log(print);
-});
+console.log(input)
+console.log(btn)
