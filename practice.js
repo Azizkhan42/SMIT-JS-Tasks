@@ -41,3 +41,5 @@ function isPalindrome(num) {
 
 console.log(isPalindrome(3434)); // false
 console.log(isPalindrome(1221)); // true
+console.log(isPalindrome(1423)); // true
+console.log(isPalindrome(828)); // true
