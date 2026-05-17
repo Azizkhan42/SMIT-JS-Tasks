@@ -26,20 +26,19 @@
 //   return false;
 // }
 
-function isPalindrome(num) {
-  let original = num;
-  let reversed = 0;
+// function isPalindrome(num) {
+//   let original = num;
+//   let reversed = 0;
 
-  while (num > 0) {
-    let r = num % 10;
-    reversed = reversed * 10 + r;
-    num = Math.floor(num / 10);
-  }
+//   while (num > 0) {
+//     let r = num % 10;
+//     reversed = reversed * 10 + r;
+//     num = Math.floor(num / 10);
+//   }
 
-  return reversed === original;
-}
+//   return reversed === original;
+// }
 
-console.log(isPalindrome(3434)); // false
-console.log(isPalindrome(1221)); // true
-console.log(isPalindrome(1423)); // true
-console.log(isPalindrome(828)); // true
+// console.log(isPalindrome(3434)); 
+// console.log(isPalindrome(1221)); 
+
