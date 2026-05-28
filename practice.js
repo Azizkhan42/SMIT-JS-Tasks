@@ -1,25 +1,22 @@
-// let timerId = setTimeout(() => {
-//   console.log("This is timer function");
-// }, 3000);
+// let arr1 = [1,2,3]
 
-// clearTimeout(timerId);
+// let arr2 = [4,5,6]
 
-// let intervaltime = setInterval(() => {
-//     console.log("Starting from 0...")
-// }, 1000);
+// let combinedArr = arr1.concat(arr2)
 
-// clearInterval(intervaltime)
+// console.log(combinedArr)
 
-let promise = new Promise((resolve, reject) => {
-  resolve("The promise is resolved");
 
-  reject("The promise is rejected");
-});
+// let msg = "Hello";
+// let name = "Aziz";
 
-promise
-.then((result)=>{
-    console.log(result)
-})
-.catch((error)=>{
-    console.log(error)
-})
+// console.log(msg + name)
+
+
+function message(num =6, num2=80){
+    return num + num2
+}
+
+console.log(message())
+
+
