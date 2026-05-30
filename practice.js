@@ -12,11 +12,16 @@
 
 // console.log(msg + name)
 
+let stdMarks = [78,87,69,36,46,37,87,90];
 
-function message(num =6, num2=80){
-    return num + num2
+function percentage(){
+    let sum = stdMarks.reduce((acc, add)=>acc + add)
+    let percent = sum/800 * 100;
+    console.log(percent)
 }
 
-console.log(message())
+percentage()
+
+
 
 
