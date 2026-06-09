@@ -6,7 +6,6 @@
 
 // console.log(combinedArr)
 
-
 // let msg = "Hello";
 // let name = "Aziz";
 
@@ -22,12 +21,8 @@
 
 // percentage()
 
-
 // console.log(name)
 // var name = "Aziz";
-
-
-
 
 // const user = {
 //     name: "Aziz",
@@ -41,7 +36,6 @@
 //     console.log(user[value])
 // }
 
-
 // let arr = [1,2,3,4,5]
 
 // let str = "Aziz"
@@ -49,3 +43,19 @@
 // for(let values of str){
 //     console.log(values)
 // }
+
+// let arr = [1,2,3,4,5]
+
+// function name(){
+//     console.log("function1")
+// }
+
+// console.log(arr.length-1)
+
+
+
+test()
+
+var test = function(){
+    console.log("Hoisting...")
+}
