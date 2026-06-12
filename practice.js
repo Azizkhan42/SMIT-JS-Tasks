@@ -1,61 +1,49 @@
-// let arr1 = [1,2,3]
+// let fruits = ["orange", "mango", "apple", "peach"];
 
-// let arr2 = [4,5,6]
+// let nums = [1, 2, 3, 4, 5, 6];
 
-// let combinedArr = arr1.concat(arr2)
+// let addeditems = nums.splice(0, 0, 45,45,45);
 
-// console.log(combinedArr)
-
-// let msg = "Hello";
-// let name = "Aziz";
-
-// console.log(msg + name)
-
-// let stdMarks = [78,87,69,36,46,37,87,90];
-
-// function percentage(){
-//     let sum = stdMarks.reduce((acc, add)=>acc + add)
-//     let percent = sum/800 * 100;
-//     console.log(percent)
-// }
-
-// percentage()
-
-// console.log(name)
-// var name = "Aziz";
+// console.log(nums)
 
 // const user = {
-//     name: "Aziz",
-//     id: 15465,
-//     idprint: function print(){
-//     console.log("your id is : ", this.id)
-// }
-// }
+//   name: "Aziz",
+//   id: 15465,
+//   isStudent: true,
+//   Semester: "6th",
+//   courses: {
+//     subject1: "Operating System",
+//     subject2: "Web Engineering",
+//     Teachers: {
+//         name: "Mohsin"
+//     }
+//   }
+// };
 
-// for(let value in user){
-//     console.log(user[value])
-// }
-
-// let arr = [1,2,3,4,5]
-
-// let str = "Aziz"
-
-// for(let values of str){
-//     console.log(values)
+// for(let key in user){
+//     console.log(key, user[key])
 // }
 
-// let arr = [1,2,3,4,5]
+// let data = new Object();
+// data.name = "Aziz";
+// data.id = 15465;
+// data.isStudent = true
 
-// function name(){
-//     console.log("function1")
+// console.log(data)
+
+// let name = prompt("Enter your name...");
+
+// try {
+//   let customeError = new Error("Enter your name first...");
+//   customeError.name = "name not entered";
+//   if (name === "") {
+//     throw customeError;
+//   }
+//   console.log(name);
+// } catch (err) {
+//   console.log(err.name);
+//   console.log(err.message);
+//   console.log("catch block caught it successfully...");
 // }
 
-// console.log(arr.length-1)
 
-
-
-test()
-
-var test = function(){
-    console.log("Hoisting...")
-}
