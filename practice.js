@@ -47,3 +47,7 @@
 // }
 
 
+let age = 22;
+
+age = "Twenty two"
+console.log(age)
