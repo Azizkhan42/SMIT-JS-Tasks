@@ -47,7 +47,12 @@
 // }
 
 
-let age = 22;
+// let age = 22;
 
-age = "Twenty two"
-console.log(age)
+// age = "Twenty two"
+// console.log(age)
+
+let num = 123;
+let str = `${num}`
+
+console.log(typeof str, str)
