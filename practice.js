@@ -1,8 +1,20 @@
-const user = {
-    Prayer: "Namaz",
-    Obligatory_prayer: "Faraz Namaz",
-    prostrate: "Sejda",
-    offer: "Ada karna"
+// // var sayHi;
+// // console.log(sayHi);
+// // sayHi(); // undefined()
+// // var sayHi = () => {
+// //   console.log("Hi");
+// // };
+
+// let sayHi;
+// console.log(sayHi)
+// sayHi() // ReferenceError
+// let sayHi = () => {
+//   console.log("Hi");
+// };
+
+
+function aziz(value){
+    console.log(value);
 }
 
-console.log(user)
+aziz(typeof aziz);
