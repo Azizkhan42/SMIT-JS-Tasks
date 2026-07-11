@@ -1,20 +1,20 @@
-// // var sayHi;
-// // console.log(sayHi);
-// // sayHi(); // undefined()
-// // var sayHi = () => {
-// //   console.log("Hi");
-// // };
+// function name(){
+//     console.log("Aziz")
+// }
+// console.log(name instanceof Object)
 
-// let sayHi;
-// console.log(sayHi)
-// sayHi() // ReferenceError
-// let sayHi = () => {
-//   console.log("Hi");
-// };
+let user = {
+    name: "Aziz",
+    age: 22,
+    city: "Peshawar",
+    notice: function(){
+        console.log(`Hello, ${user.name}  you are eligible for this role.`)
+    }
+};
 
+const {name, age, city} = user;
 
-function aziz(value){
-    console.log(value);
-}
-
-aziz(typeof aziz);
+console.log(name, age, city)
+// for(const values in user){
+//     console.log(user[values])
+// }
